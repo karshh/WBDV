@@ -1,0 +1,57 @@
+html {
+	background-color: black;
+}
+
+
+/* NAVIGATION BAR */
+.navbar {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	top: -10px;
+	left: -10px;
+	height: 60px;
+}
+
+.menu-options {
+	list-style-type: none;
+	text-align: center;
+}
+.menu-options li {
+	display: inline;
+	padding-right: 30px;
+}
+
+.logo {
+	align-items :center;
+	float: left;
+	font-size: 30px;
+	padding : 10px 0% 0% 5%;
+}
+
+.about {
+	float: right;
+	padding-right: 5%;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a:hover {
+	color: white;
+	background-color: blue;
+}
+
+
+/* MAIN CONTENT */
+.mainContent {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('northyork.jpg');
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.4;
+}
