@@ -1,0 +1,192 @@
+@font-face {
+	font-family: 'Nexa';
+	src: url("Fonts/Nexa/NexaLight.otf");
+}
+
+
+html {
+}
+
+body {
+  	margin: 0;
+	font-family: "Nexa";
+}
+/* NAVIGATION BAR */
+.navbar {
+
+	background-color: #9599DD;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	letter-spacing: 5px;
+
+}
+
+.menu-options {
+	list-style-type: none;
+	text-align: right;
+	margin-right: 5%;
+	margin-top: 1%;
+}
+
+.menu-options li {
+	font-size: 30px;
+	display: inline;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.navbar a {
+	font-family: "Nexa";
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a:hover {
+	opacity: 0.2;
+}
+
+
+.logo {
+	float: left;
+	font-size: 40px;
+}
+
+.current {
+	opacity: 0.4;
+}
+
+
+.logo {
+	position: relative;
+	font-size: 30px;
+	display: inline;
+	font-family: "Nexa";
+	float: center;
+	font-size: 40px;
+	text-decoration: none;
+	top: 20%;
+	padding-left: 1%;
+	color: white;
+}
+
+.current {
+	opacity: 0.2;
+}
+
+
+.top {
+	position: relative;
+	height: 100px;
+}
+
+.top div {
+	display: inline;
+	width: 20%;
+	height: 100%;
+	text-align: left;
+}
+
+
+.option1 {
+	position: absolute;
+	background-color: #A8DBE7;
+	width: 20%;
+	height: 100%;
+}
+
+.option2 {
+	position: absolute;
+	background-color: #88D0A5;
+	left: 20%;
+	
+}
+.option3 {
+	position: absolute;
+	background-color: #BAE78C;
+	left: 40%;
+	
+}
+.option4 {
+	position: absolute;
+	background-color: #88D0A5;
+	left: 60%;
+	
+}
+.option5 {
+	position: absolute;
+	background-color: #A8DBE7;
+	left: 80%;
+	
+}
+
+.middle {
+	position: relative;
+	height: 550px;
+	background-color: #DDD39C;
+}
+
+.middle h1 {
+	position: absolute;
+	font-family: "Nexa";
+	font-size: 50px;
+	color: brown;
+	text-align: center;
+	width: 100%;
+	top: 20%;
+}
+
+.middle img {
+
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
+
+.lowerMiddle {
+	position: relative;
+	height: 500px;
+	background-color: #9599DD;
+
+}
+
+.lowerMiddle div {
+	position: absolute;
+	height: 100%;
+
+}
+
+.lowerMiddle div * {
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 1.6;
+} 
+
+/* Colors: 9599DD A8DBE7 88D0A5 BAE78C DDD39C */
+
+.lowerMiddleLeft {
+	width: calc(100% /3);
+	background-color: #BAE78C;
+
+}
+
+.lowerMiddleCenter {
+	left: calc(100%  /3);
+	width: calc(100%  /3);
+	background-color: #88D0A5;
+
+}
+.lowerMiddleRight {
+	left: calc(200%  /3);
+	width: calc(100%  /3);
+	background-color: #A8DBE7;
+}
+
+.bottom {
+	background-color: #9599DD;
+	height: 100px;
+
+}
