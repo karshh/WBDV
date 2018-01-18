@@ -146,6 +146,7 @@ body {
 
 .lowerMiddle div {
 	position: absolute;
+	width: calc(100% /3);
 	height: 100%;
 
 }
@@ -160,20 +161,17 @@ body {
 /* Colors: 9599DD A8DBE7 88D0A5 BAE78C DDD39C */
 
 .lowerMiddleLeft {
-	width: calc(100% /3);
 	background-color: #BAE78C;
 
 }
 
 .lowerMiddleCenter {
 	left: calc(100%  /3);
-	width: calc(100%  /3);
 	background-color: #88D0A5;
 
 }
 .lowerMiddleRight {
 	left: calc(200%  /3);
-	width: calc(100%  /3);
 	background-color: #A8DBE7;
 }
 
