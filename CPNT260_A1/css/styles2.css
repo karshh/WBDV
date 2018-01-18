@@ -13,6 +13,7 @@ html {
 body {
   margin: 0;
 }
+
 /* NAVIGATION BAR */
 .navbar {
 
@@ -42,10 +43,10 @@ body {
 
 .current {
 	border-radius: 25px;
-	    border: 2px solid #1500FF;
-	    padding: 10px; 
-	    width: 200px;
-	    height: 150px; 
+    border: 2px solid #1500FF;
+    padding: 10px; 
+    width: 200px;
+    height: 150px; 
 }
 
 .navbar a {
@@ -70,15 +71,17 @@ body {
 	color: #FFD900;
 }
 
-.top h1 {
+.top * {
 	position: relative;
+}
+
+.top h1 {
 	top: 10%;
 	font-size: 50px;
 	padding-bottom: 5%;
 }
 
 .top img {
-	position: relative;
 	top: 40%;
 }
 
@@ -92,6 +95,13 @@ body {
 
 .top2 div {
 	display: inline;
+	position: absolute;
+	top: 5%;
+	width: 25%;
+	font-family: 'Montserrat';
+	color: #1500FF;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 .top2 p {
@@ -99,36 +109,15 @@ body {
 }
 
 .left {
-	position: absolute;
-	top: 5%;
 	left: 5%;
-	width: 25%;
-	font-family: 'Montserrat';
-	color: #1500FF;
-	font-size: 18px;
-	line-height: 1.6;
 }
 
 .center {
-	position: absolute;
-	top: 5%;
 	left:  37.5%;
-	width: 25%;
-	font-family: 'Montserrat';
-	color: #1500FF;
-	font-size: 18px;
-	line-height: 1.6;
 }
 
 .right {
-	position: absolute;
-	top: 5%;
 	left: 70%;
-	width: 25%;
-	font-family: 'Montserrat';
-	color: #1500FF;
-	font-size: 18px;
-	line-height: 1.6;
 }
 
 
