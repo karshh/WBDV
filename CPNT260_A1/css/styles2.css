@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Montserrat';
-	src: url("Fonts/Montserrat/Montserrat-Regular.ttf");
+	src: url("../Fonts/Montserrat/Montserrat-Regular.ttf");
 }
 @font-face {
 	font-family: 'Pacifico';
-	src: url("Fonts/Pacifico/Pacifico-Regular.ttf");
+	src: url("../Fonts/Pacifico/Pacifico-Regular.ttf");
 }
 
 html {
