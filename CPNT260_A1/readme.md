@@ -1,6 +1,6 @@
 # Web Templates Design
 
-This project is my attempt at making web designs with different themes and fonts. 
+This project is my attempt at making web designs with different themes and fonts. Note: The content are NOT responsive at this moment. 
 
 ### Templates
 
