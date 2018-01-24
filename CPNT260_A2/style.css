@@ -13,6 +13,14 @@ html, body{
 }
 
 
+a {
+	text-decoration: none;
+}
+
+a:hover, a:hover h1 {
+	opacity: 0.6;
+}
+
 .navbar-under-tablet {
 	display: none;
 }
@@ -81,17 +89,17 @@ html, body{
 }
 
 .menu-options a, .hero-options a {
-	text-decoration: none;
 	color: white;
 }
 
-.menu-options a:hover, .hero-options a:hover {
-	opacity: 0.6;
-}
 
-.hero-options li {
+#hero1 li {
 	font-size: 20px;
   	padding:0px 45px 0 45px; 
+}
+
+#hero1-mobile li {
+	font-size: 20px;
 }
 
 .hero-options a {
@@ -153,27 +161,54 @@ html, body{
   width: 100%;
 }
 
-.inner{
-  min-height:800px;
+.inner {
+  min-height:1000px;
   position: relative;
 }
 
+.subcontent {
+	padding-top: 50px;
+	padding-bottom: 50px;
+  	min-height:500px;
+ 	 position: relative;
+}
 
 .text {
   position:absolute; 
   width:100%;
 }
 
-.text {
+.text  {
   top:30%; 
+}
+
+.component {
+	display: inline-block;
+	margin-bottom: 5%;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 28%;
+	height: 70%;
+	 /*background: rgba(0,0,0,0.3);*/
+}
+
+.component img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 50%;
+	filter: brightness(70%);
 }
 
 #hero1 .text, #hero1-mobile .text {
   top: 40%; 
 }
 
-#hero1 .text h1, #hero1-mobile .text h1 {
+#hero1 .text h1  {
 	font-size: 40px;
+}
+
+#hero1-mobile .text h1 {
+	font-size: 30px;
 }
 
 
@@ -182,7 +217,7 @@ html, body{
   color:#fff;
 }
 
-.content h1, .content p{
+.content h1, .content h1 a, .content p{
   color:#333;
 }
 
@@ -194,14 +229,16 @@ h1{
   padding:0px 20px;
 }
 
+
 p{
   font-family: 'Noto Sans', sans-serif; 
   font-size:14px;
   padding:0px 20px;
 }
 
-
-
+.content h1 {
+	padding-bottom: 30px;
+}
 
 @media (max-width: 1300px) {
 	.navbar {
@@ -213,7 +250,6 @@ p{
 
 
 }
-
 
 @media (max-width: 950px) {
 	.navbar {
@@ -228,7 +264,7 @@ p{
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 825px) {
 
 	#hero1-mobile {
 		display: block;
@@ -236,5 +272,9 @@ p{
 
 	#hero1 {
 		display: none;
+	}
+
+	.component {
+		width: 50%;
 	}
 }
