@@ -21,6 +21,10 @@ html, body{
 	display: none;
 }
 
+#hero1-mobile {
+	display: none;
+}
+
 
 .navbar {
 	display: block;
@@ -52,7 +56,7 @@ html, body{
 	padding-top: 15px;
 }
 
-.hero-options ul {
+.hero-options {
 	margin-top: 20px;
 	padding: 5%;
 	text-align: center;
@@ -64,6 +68,12 @@ html, body{
 	align-items: center;
   	padding:0px 15px; 
 }
+
+#hero1-mobile .hero-options li {
+	display: block;
+	margin-bottom: 50px;
+}
+
 
 .mobile-options li {
 	display: block;
@@ -119,18 +129,19 @@ html, body{
 
 /* MAIN CONTENT*/
 
-#hero1 {
+#hero1, #hero1-mobile {
  background:url("https://images.unsplash.com/photo-1502763413034-38ff5c7578b1?auto=format&fit=crop&w=634&q=80");
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
 
-#hero2{background: url("https://images.unsplash.com/photo-1462899006636-339e08d1844e?auto=format&fit=crop&w=1050&q=80");
+#hero2, #hero2-mobile {background: url("https://images.unsplash.com/photo-1462899006636-339e08d1844e?auto=format&fit=crop&w=1050&q=80");
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
+
 
 .hero .inner {
   background: rgba(0,0,0,0.7);
@@ -157,11 +168,11 @@ html, body{
   top:30%; 
 }
 
-#hero1 .text {
+#hero1 .text, #hero1-mobile .text {
   top: 40%; 
 }
 
-#hero1 .text h1 {
+#hero1 .text h1, #hero1-mobile .text h1 {
 	font-size: 40px;
 }
 
@@ -200,6 +211,7 @@ p{
 		display: block;
 	}
 
+
 }
 
 
@@ -212,5 +224,17 @@ p{
 	}
 	.navbar-under-tablet {
 		display: block;
+	}
+
+}
+
+@media (max-width: 770px) {
+
+	#hero1-mobile {
+		display: block;
+	}
+
+	#hero1 {
+		display: none;
 	}
 }
